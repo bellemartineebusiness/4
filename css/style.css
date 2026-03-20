@@ -11,22 +11,23 @@
 }
 
 :root {
-  --color-primary: #1a3c5e;
-  --color-primary-dark: #122c46;
-  --color-accent: #2e86c1;
-  --color-accent-light: #aed6f1;
-  --color-bg: #f7f9fc;
+  --color-primary: #1d5c66;
+  --color-primary-dark: #154348;
+  --color-accent: #4aacb8;
+  --color-accent-light: #b3dfe6;
+  --color-bg: #f4fafb;
   --color-bg-card: #ffffff;
-  --color-text: #1c2b3a;
-  --color-text-muted: #5a7089;
-  --color-border: #d6e4f0;
+  --color-text: #1a3638;
+  --color-text-muted: #4d7a83;
+  --color-border: #c5e5ea;
   --color-white: #ffffff;
-  --color-footer-bg: #0f2236;
+  --color-footer-bg: #0e2d33;
+  --color-gold: #d4a520;
   --radius: 10px;
   --radius-lg: 18px;
-  --shadow-sm: 0 2px 8px rgba(26,60,94,0.08);
-  --shadow-md: 0 6px 24px rgba(26,60,94,0.13);
-  --shadow-lg: 0 16px 48px rgba(26,60,94,0.18);
+  --shadow-sm: 0 2px 8px rgba(29,92,102,0.08);
+  --shadow-md: 0 6px 24px rgba(29,92,102,0.13);
+  --shadow-lg: 0 16px 48px rgba(29,92,102,0.18);
   --transition: 0.25s ease;
   --max-width: 1100px;
   --font-sans: 'Inter', 'Segoe UI', Arial, sans-serif;
@@ -299,7 +300,7 @@ p {
 /* === Hero === */
 .hero {
   min-height: 100vh;
-  background: linear-gradient(135deg, var(--color-primary) 0%, #1a5276 55%, var(--color-accent) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #1a6878 55%, var(--color-accent) 100%);
   display: flex;
   align-items: center;
   padding-top: 68px;
@@ -325,14 +326,14 @@ p {
 .hero__blob--1 {
   width: 500px;
   height: 500px;
-  background: #aed6f1;
+  background: #b3dfe6;
   top: -100px;
   right: -100px;
 }
 .hero__blob--2 {
   width: 350px;
   height: 350px;
-  background: #2e86c1;
+  background: #4aacb8;
   bottom: -80px;
   left: 10%;
 }
@@ -661,7 +662,7 @@ p {
 }
 
 .testimonial-card__stars {
-  color: #f59e0b;
+  color: var(--color-gold);
   font-size: 1.1rem;
   letter-spacing: 0.1em;
   margin-bottom: 1rem;
@@ -923,8 +924,8 @@ p {
   border-color: var(--color-accent);
 }
 .cookie-btn--accept:hover {
-  background: #2176ae;
-  border-color: #2176ae;
+  background: #3d96a3;
+  border-color: #3d96a3;
 }
 
 .cookie-btn--decline {
@@ -1040,7 +1041,7 @@ p {
 
 /* === Policy Pages === */
 .policy-hero {
-  background: linear-gradient(135deg, var(--color-primary) 0%, #1a5276 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, #1a6878 100%);
   padding: 8rem 0 4rem;
   text-align: center;
   color: white;
