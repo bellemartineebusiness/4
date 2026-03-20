@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Simon Lind skapar professionella, moderna webbplatser för företag och egenföretagare. Kontakta oss för en kostnadsfri konsultation." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Simon Lind – Professionella Webbplatser" />
+  <meta property="og:description" content="Vi skapar moderna, mobilanpassade webbplatser som ger din verksamhet ett trovärdigt och professionellt intryck." />
+  <meta property="og:type" content="website" />
+  <title>Simon Lind – Professionella Webbplatser</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===================== HEADER ===================== -->
+  <header class="header" role="banner">
+    <div class="container">
+      <div class="header__inner">
+        <a href="index.html" class="header__logo" aria-label="Simon Lind – Startsida">
+          <div class="header__logo-icon" aria-hidden="true">SL</div>
+          Simon Lind
+        </a>
+
+        <nav class="nav" id="main-nav" role="navigation" aria-label="Huvudnavigation">
+          <ul class="nav__list">
+            <li><a href="#tjanster" class="nav__link">Tjänster</a></li>
+            <li><a href="#process" class="nav__link">Hur vi jobbar</a></li>
+            <li><a href="#om-oss" class="nav__link">Om mig</a></li>
+            <li><a href="#omdomen" class="nav__link">Omdömen</a></li>
+            <li>
+              <a href="#kontakt" class="btn btn--primary nav__cta">Kontakta mig</a>
+            </li>
+          </ul>
+        </nav>
+
+        <button class="hamburger" id="hamburger" aria-expanded="false" aria-controls="main-nav" aria-label="Öppna meny">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="hem">
+    <div class="hero__blob hero__blob--1" aria-hidden="true"></div>
+    <div class="hero__blob hero__blob--2" aria-hidden="true"></div>
+    <div class="container">
+      <div class="hero__content">
+        <div class="hero__badge">
+          <span class="hero__badge-dot" aria-hidden="true"></span>
+          Tillgänglig för nya projekt
+        </div>
+        <h1>Din verksamhet förtjänar en <span>professionell webbplats</span></h1>
+        <p class="hero__lead">
+          Jag hjälper företag och egenföretagare att synas online med moderna,
+          snabba och mobilanpassade webbplatser som skapar förtroende och
+          genererar nya kunder.
+        </p>
+        <div class="hero__actions">
+          <a href="#kontakt" class="btn btn--primary">Kom igång idag</a>
+          <a href="#tjanster" class="btn btn--outline">Se våra tjänster</a>
+        </div>
+        <div class="hero__stats" role="list">
+          <div class="hero__stat" role="listitem">
+            <div class="hero__stat-number">50+</div>
+            <div class="hero__stat-label">Nöjda kunder</div>
+          </div>
+          <div class="hero__stat" role="listitem">
+            <div class="hero__stat-number">5 år</div>
+            <div class="hero__stat-label">Erfarenhet</div>
+          </div>
+          <div class="hero__stat" role="listitem">
+            <div class="hero__stat-number">100%</div>
+            <div class="hero__stat-label">Mobilanpassat</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICES ===================== -->
+  <section class="section" id="tjanster" aria-labelledby="tjanster-heading">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__badge">Tjänster</span>
+        <h2 id="tjanster-heading">Allt du behöver för en framgångsrik webbplats</h2>
+        <p>Från första skiss till färdig sida – jag hanterar hela processen så att du kan fokusera på din verksamhet.</p>
+      </div>
+
+      <div class="services__grid">
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🎨</div>
+          <h3>Webbdesign & Utveckling</h3>
+          <p>Skräddarsydda webbplatser med modern design som speglar ditt varumärke och engagerar dina besökare.</p>
+          <ul class="service-card__features">
+            <li class="service-card__feature">Responsiv design för alla enheter</li>
+            <li class="service-card__feature">Snabb laddningstid</li>
+            <li class="service-card__feature">Modern och tidlös estetik</li>
+            <li class="service-card__feature">Enkel administration</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🔍</div>
+          <h3>Sökmotoroptimering (SEO)</h3>
+          <p>Bli hittad av rätt kunder. Jag optimerar din webbplats för sökmotorer så att du rankar högre på Google.</p>
+          <ul class="service-card__features">
+            <li class="service-card__feature">Teknisk SEO-analys</li>
+            <li class="service-card__feature">Innehållsoptimering</li>
+            <li class="service-card__feature">Lokal SEO för din ort</li>
+            <li class="service-card__feature">Löpande rapportering</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🛒</div>
+          <h3>E-handel</h3>
+          <p>Sälj dina produkter online med en säker och användarvänlig e-handelslösning som ökar din försäljning.</p>
+          <ul class="service-card__features">
+            <li class="service-card__feature">Säker betalningshantering</li>
+            <li class="service-card__feature">Enkel produktadministration</li>
+            <li class="service-card__feature">Integrerat lagersystem</li>
+            <li class="service-card__feature">Mobiloptimerat checkout</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">🔒</div>
+          <h3>Underhåll & Support</h3>
+          <p>Trygg och pålitlig drift. Jag håller din webbplats uppdaterad, säker och fungerar optimalt hela tiden.</p>
+          <ul class="service-card__features">
+            <li class="service-card__feature">Regelbundna säkerhetsuppdateringar</li>
+            <li class="service-card__feature">Dagliga säkerhetskopior</li>
+            <li class="service-card__feature">SSL-certifikat ingår</li>
+            <li class="service-card__feature">Support via e-post och telefon</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">📱</div>
+          <h3>Mobilanpassning</h3>
+          <p>Mer än hälften av alla webbsidbesök sker via mobil. Jag säkerställer att din sajt ser perfekt ut på alla skärmar.</p>
+          <ul class="service-card__features">
+            <li class="service-card__feature">Testad på iOS och Android</li>
+            <li class="service-card__feature">Touch-optimerade gränssnitt</li>
+            <li class="service-card__feature">Snabb mobilprestanda</li>
+            <li class="service-card__feature">Google Mobile-First indexering</li>
+          </ul>
+        </article>
+
+        <article class="service-card">
+          <div class="service-card__icon" aria-hidden="true">📊</div>
+          <h3>Analys & Statistik</h3>
+          <p>Förstå dina besökare bättre med detaljerade rapporter om trafik, konverteringar och användarbeteende.</p>
+          <ul class="service-card__features">
+            <li class="service-card__feature">Google Analytics-integration</li>
+            <li class="service-card__feature">Månadsrapporter</li>
+            <li class="service-card__feature">Konverteringsspårning</li>
+            <li class="service-card__feature">Konkurrentanalys</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROCESS ===================== -->
+  <section class="section section--alt" id="process" aria-labelledby="process-heading">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__badge">Hur vi jobbar</span>
+        <h2 id="process-heading">Från idé till färdig webbplats på nolltid</h2>
+        <p>En tydlig och strukturerad process som håller dig informerad i varje steg.</p>
+      </div>
+
+      <div class="process__steps">
+        <div class="process__step">
+          <div class="process__step-number" aria-hidden="true">1</div>
+          <h3>Rådgivning & Analys</h3>
+          <p>Vi börjar med ett kostnadsfritt möte där vi går igenom dina mål, målgrupp och behov. Jag lyssnar noga för att förstå din verksamhet.</p>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-number" aria-hidden="true">2</div>
+          <h3>Design & Prototyp</h3>
+          <p>Jag skapar ett visuellt förslag anpassat till ditt varumärke. Du godkänner designen innan jag börjar koda.</p>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-number" aria-hidden="true">3</div>
+          <h3>Utveckling & Test</h3>
+          <p>Din webbplats byggs med ren, modern kod. Jag testar noggrant på alla enheter och webbläsare.</p>
+        </div>
+
+        <div class="process__step">
+          <div class="process__step-number" aria-hidden="true">4</div>
+          <h3>Lansering & Uppföljning</h3>
+          <p>Efter din godkännelse går vi live. Jag finns tillgänglig för support och löpande förbättringar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="om-oss" aria-labelledby="om-heading">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual">
+          <div class="about__img-wrap">
+            <div class="about__avatar" aria-label="Simon Lind">SL</div>
+          </div>
+          <div class="about__card" aria-hidden="true">
+            <div class="about__card-icon">⭐</div>
+            <div class="about__card-text">
+              <strong>Toppbetyg</strong>
+              <span>5/5 hos alla kunder</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <span class="section__badge">Om mig</span>
+          <h2 id="om-heading">Hej, jag är Simon Lind</h2>
+          <p>
+            Med över 5 års erfarenhet av webbdesign och -utveckling hjälper jag
+            svenska företag att bygga en stark digital närvaro. Jag tror på ärlighet,
+            transparens och långsiktiga relationer med mina kunder.
+          </p>
+          <p>
+            Varje webbplats jag skapar är unik – anpassad efter kundens specifika behov
+            och mål. Jag kombinerar estetisk design med teknisk excellens för att
+            leverera resultat som verkligen gör skillnad.
+          </p>
+          <p>
+            Baserad i Sverige, tillgänglig för kunder i hela landet. Jag erbjuder alltid
+            en kostnadsfri inledande konsultation.
+          </p>
+
+          <div class="about__values">
+            <div class="about__value">
+              <div class="about__value-icon" aria-hidden="true">🤝</div>
+              <div class="about__value-text">
+                <strong>Ärlighet</strong>
+                <span>Inga dolda avgifter eller överraskningar</span>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon" aria-hidden="true">⚡</div>
+              <div class="about__value-text">
+                <strong>Snabb leverans</strong>
+                <span>Din sajt klar inom överenskommen tid</span>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon" aria-hidden="true">💡</div>
+              <div class="about__value-text">
+                <strong>Innovation</strong>
+                <span>Alltid uppdaterad med senaste tekniken</span>
+              </div>
+            </div>
+            <div class="about__value">
+              <div class="about__value-icon" aria-hidden="true">🛡️</div>
+              <div class="about__value-text">
+                <strong>Säkerhet</strong>
+                <span>GDPR-anpassat och datasäkert</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS ===================== -->
+  <section class="section section--alt" id="omdomen" aria-labelledby="omdomen-heading">
+    <div class="container">
+      <div class="section__header">
+        <span class="section__badge">Omdömen</span>
+        <h2 id="omdomen-heading">Vad säger mina kunder?</h2>
+        <p>Ärliga omdömen från nöjda kunder som låtit mig bygga deras digitala närvaro.</p>
+      </div>
+
+      <div class="testimonials__grid">
+        <article class="testimonial-card">
+          <div class="testimonial-card__stars" aria-label="5 av 5 stjärnor">★★★★★</div>
+          <p class="testimonial-card__text">
+            "Simon levererade en fantastisk webbplats på kortare tid än jag väntat mig.
+            Designen är stilren och professionell, och antalet förfrågningar från nya
+            kunder har ökat märkbart sedan lansering."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">AK</div>
+            <div>
+              <div class="testimonial-card__name">Anna Karlsson</div>
+              <div class="testimonial-card__role">Grundare, Karlsson Konsult AB</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-card__stars" aria-label="5 av 5 stjärnor">★★★★★</div>
+          <p class="testimonial-card__text">
+            "Professionell, lyhörd och kunnig. Simon förstod precis vad jag ville ha och
+            levererade exakt det. Min e-handelsbutik fungerar perfekt och kunderna
+            uppskattar hur enkel den är att använda."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">ML</div>
+            <div>
+              <div class="testimonial-card__name">Marcus Lindgren</div>
+              <div class="testimonial-card__role">VD, NordShop Sverige</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="testimonial-card">
+          <div class="testimonial-card__stars" aria-label="5 av 5 stjärnor">★★★★★</div>
+          <p class="testimonial-card__text">
+            "Bästa investering jag gjort för mitt företag. Webbplatsen är snabb,
+            snygg och rankar redan på förstasidan i Google. Rekommenderar varmt
+            Simon till alla som vill ha en seriös webbnärvaro."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar" aria-hidden="true">SH</div>
+            <div>
+              <div class="testimonial-card__name">Sara Holm</div>
+              <div class="testimonial-card__role">Ägare, Holm Redovisning</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section" id="kontakt" aria-labelledby="kontakt-heading">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info">
+          <span class="section__badge">Kontakt</span>
+          <h2 id="kontakt-heading">Låt oss prata om ditt projekt</h2>
+          <p>
+            Är du redo att ta ditt företag till nästa nivå online? Fyll i formuläret
+            så återkommer jag inom 24 timmar – helt kostnadsfritt.
+          </p>
+
+          <div class="contact__methods">
+            <a href="mailto:simon@simonlind.se" class="contact__method">
+              <div class="contact__method-icon" aria-hidden="true">✉️</div>
+              <div>
+                <span class="contact__method-label">E-post</span>
+                <span class="contact__method-value">simon@simonlind.se</span>
+              </div>
+            </a>
+            <a href="tel:+46701234567" class="contact__method">
+              <div class="contact__method-icon" aria-hidden="true">📞</div>
+              <div>
+                <span class="contact__method-label">Telefon</span>
+                <span class="contact__method-value">070-123 45 67</span>
+              </div>
+            </a>
+            <div class="contact__method">
+              <div class="contact__method-icon" aria-hidden="true">📍</div>
+              <div>
+                <span class="contact__method-label">Plats</span>
+                <span class="contact__method-value">Sverige – tillgänglig rikstäckande</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form" role="complementary" aria-label="Kontaktformulär">
+          <form class="contact-form" novalidate aria-label="Skicka meddelande till Simon Lind">
+            <div class="form__row">
+              <div class="form__group">
+                <label class="form__label" for="name">Namn <span aria-hidden="true">*</span></label>
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Ditt namn"
+                  required
+                  autocomplete="name"
+                />
+              </div>
+              <div class="form__group">
+                <label class="form__label" for="email">E-post <span aria-hidden="true">*</span></label>
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="din@email.se"
+                  required
+                  autocomplete="email"
+                />
+              </div>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="company">Företag</label>
+              <input
+                class="form__input"
+                type="text"
+                id="company"
+                name="company"
+                placeholder="Ditt företagsnamn (valfritt)"
+                autocomplete="organization"
+              />
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="service">Tjänst du är intresserad av</label>
+              <select class="form__select" id="service" name="service">
+                <option value="">Välj tjänst…</option>
+                <option value="webbdesign">Webbdesign &amp; Utveckling</option>
+                <option value="seo">Sökmotoroptimering (SEO)</option>
+                <option value="ehandel">E-handel</option>
+                <option value="underhall">Underhåll &amp; Support</option>
+                <option value="ovrigt">Övrigt</option>
+              </select>
+            </div>
+
+            <div class="form__group">
+              <label class="form__label" for="message">Meddelande <span aria-hidden="true">*</span></label>
+              <textarea
+                class="form__textarea"
+                id="message"
+                name="message"
+                placeholder="Berätta om ditt projekt och vad du behöver hjälp med…"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--primary form__submit">
+              Skicka meddelande
+            </button>
+
+            <div class="form__success" role="alert" aria-live="polite">
+              ✅ Tack! Ditt meddelande har skickats. Jag återkommer inom 24 timmar.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="footer__logo" aria-label="Simon Lind – Startsida">
+            <div class="footer__logo-icon" aria-hidden="true">SL</div>
+            Simon Lind
+          </a>
+          <p>
+            Professionella webbplatser för svenska företag. Modern design,
+            teknisk excellens och personlig service – det är min garanti till dig.
+          </p>
+        </div>
+
+        <nav class="footer__col" aria-label="Sidnavigation">
+          <h4>Navigation</h4>
+          <ul class="footer__links">
+            <li><a href="#tjanster">Tjänster</a></li>
+            <li><a href="#process">Hur vi jobbar</a></li>
+            <li><a href="#om-oss">Om mig</a></li>
+            <li><a href="#omdomen">Omdömen</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+
+        <nav class="footer__col" aria-label="Juridisk information">
+          <h4>Juridiskt</h4>
+          <ul class="footer__links">
+            <li><a href="integritetspolicy.html">Integritetspolicy</a></li>
+            <li><a href="cookiepolicy.html">Cookiepolicy</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p>© <span id="year"></span> Simon Lind. Alla rättigheter förbehållna.</p>
+        <nav class="footer__bottom-links" aria-label="Juridiska sidor">
+          <a href="integritetspolicy.html">Integritetspolicy</a>
+          <a href="cookiepolicy.html">Cookiepolicy</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===================== COOKIE BANNER ===================== -->
+  <div class="cookie-banner" role="dialog" aria-label="Cookiesamtycke" aria-describedby="cookie-desc">
+    <div class="container">
+      <div class="cookie-banner__inner">
+        <div class="cookie-banner__icon" aria-hidden="true">🍪</div>
+        <div class="cookie-banner__text" id="cookie-desc">
+          <strong>Vi använder cookies</strong>
+          <p>
+            Vi använder cookies för att förbättra din upplevelse på vår webbplats.
+            Läs mer i vår <a href="cookiepolicy.html">cookiepolicy</a> och
+            <a href="integritetspolicy.html">integritetspolicy</a>.
+          </p>
+        </div>
+        <div class="cookie-banner__actions">
+          <button class="cookie-btn cookie-btn--decline">Neka</button>
+          <button class="cookie-btn cookie-btn--accept">Acceptera alla</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
