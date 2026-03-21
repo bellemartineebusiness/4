@@ -224,6 +224,13 @@ p {
   flex-shrink: 0;
 }
 
+.header__logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .nav__list {
   display: flex;
   align-items: center;
@@ -979,6 +986,14 @@ p {
   color: white;
   font-size: 1rem;
   font-weight: 900;
+}
+
+.footer__logo-img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  flex-shrink: 0;
+  filter: brightness(0) invert(1);
 }
 
 .footer__brand p {
